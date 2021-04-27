@@ -1,0 +1,14 @@
+/* My CSS */
+
+.jumbotron {
+    padding-top: 6rem;
+    background: rgb(207, 208, 209);
+}
+
+#project {
+    background: #d1d2d3;
+}
+
+section {
+    padding-top: 5rem;
+}
