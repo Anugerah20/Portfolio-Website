@@ -3,12 +3,29 @@
 .jumbotron {
     padding-top: 6rem;
     background: rgb(207, 208, 209);
+    height: 100vh;
+    position: relative;
 }
 
-#project {
+.wavee {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#projects {
     background: #d1d2d3;
 }
 
 section {
     padding-top: 5rem;
+}
+
+
+/* Media query Mobile */
+
+@media (max-width: 576px) {
+    .btn-github {
+        width: 60%;
+    }
 }
